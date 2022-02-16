@@ -1,0 +1,120 @@
+{
+  "name": "RPA Cover",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.Mail.Activities": "[1.8.5]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d148b0ce-1756-476a-9cdc-96c993a47453",
+        "fileName": "RPA Process\\Test Flow 0.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "de5ddfe0-deff-4648-b4cf-0f0c5e54a478",
+        "fileName": "RPA Process\\Test Flow 1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a0bffde0-17ba-45c1-bb99-513d508301af",
+        "fileName": "RPA Process\\Test Flow 2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b75574c9-ecaf-47ae-a589-8b65bedcf3e3",
+        "fileName": "Show Coverage\\TestCase Case 0.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "31c2f12b-038b-4c37-bf3e-d19e49e35a24",
+        "fileName": "Show Coverage\\TestCase Case 1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2552482a-c5ee-473d-bae5-bff7223c7f30",
+        "fileName": "Show Coverage\\TestCase Case 2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "98009cb4-3f81-45dd-b458-73e65835ff01",
+        "fileName": "Show Coverage\\TestCase Case 3.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0726ccd3-f9b8-4db9-8321-18cf72357235",
+        "fileName": "UiBankLoan\\Test Cases\\High-Volume & Long-Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3a9cc782-c4dc-4f29-b8c5-2e238eae49b2",
+        "fileName": "UiBankLoan\\Test Cases\\High-Volume & Short-Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e84e5884-32b2-4846-b485-f58ab580b542",
+        "fileName": "UiBankLoan\\Test Cases\\Low-Volume & Long-Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f6d69cb2-f7af-4a81-a1a5-3edcaf89509a",
+        "fileName": "UiBankLoan\\Test Cases\\Low-Volume & Short-Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c052eccc-f290-41a5-a29e-99a679b653bc",
+        "fileName": "UiBankLoan\\Test Cases\\Mid-Volume & Long-Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d94ad62b-47f4-4e4e-baf8-a04be6b5130f",
+        "fileName": "UiBankLoan\\Test Cases\\Mid-Volume & Short-Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b218fcc9-25e9-4004-a6f2-c046a2333516",
+        "fileName": "UiBankLoan\\Test Cases\\Multi-Data Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e35439d4-38ad-492a-847e-ccecf784bdb0",
+        "fileName": "High Volume and High Term.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "UiBankLoan\\Test Cases\\High-Volume & Long-Term Loan.xaml",
+      "uniqueId": "53ebf5a4-f3cc-44e0-8e98-ee3499983363",
+      "input": [],
+      "output": []
+    }
+  ]
+}
