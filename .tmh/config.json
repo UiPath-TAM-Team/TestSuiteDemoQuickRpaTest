@@ -1,4 +1,4 @@
 {
   "issueKeyTestcaseValues": {},
-  "testManagerInstanceType": "Server"
+  "testManagerBasePath": "https://cloud.uipath.com/uipathtechnicalaccountmanagementteam/testsuitedemo/testmanager_"
 }

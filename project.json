@@ -9,19 +9,25 @@
     "UiPath.UIAutomation.Activities": "[20.4.1]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.0.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -29,6 +35,9 @@
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
     },
     "fileInfoCollection": [
       {
@@ -106,7 +115,8 @@
         "testCaseId": "e35439d4-38ad-492a-847e-ccecf784bdb0",
         "fileName": "High Volume and High Term.xaml"
       }
-    ]
+    ],
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
@@ -115,6 +125,16 @@
       "uniqueId": "53ebf5a4-f3cc-44e0-8e98-ee3499983363",
       "input": [],
       "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "ebcbe41b-3418-4f06-80a8-79a78bd7e340",
+      "input": [],
+      "output": []
     }
-  ]
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
 }

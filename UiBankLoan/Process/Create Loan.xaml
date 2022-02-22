@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>720,941</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>996,842.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Switch_Age_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
@@ -54,7 +54,7 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Create Loan" sap:VirtualizedContainerService.HintSize="730,776" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart sap2010:Annotation.AnnotationText="RPA autoamtion" DisplayName="Create Loan" sap:VirtualizedContainerService.HintSize="729.6,777.6" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:Int32" Default="10" Name="Rate" />
     </Flowchart.Variables>
@@ -62,26 +62,27 @@
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">320,22.5</av:Point>
-        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
         <av:PointCollection x:Key="ConnectorLocation">350,97.5 350,146.5</av:PointCollection>
         <x:Double x:Key="Width">696</x:Double>
         <x:Double x:Key="Height">740.5</x:Double>
+        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
       <x:Reference>__ReferenceID7</x:Reference>
     </Flowchart.StartNode>
-    <FlowSwitch x:TypeArguments="x:String" x:Name="__ReferenceID7" DisplayName="Amount" Expression="[Amount]" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_3">
+    <FlowSwitch x:TypeArguments="x:String" x:Name="__ReferenceID7" DisplayName="Amount" Expression="[Amount]" sap:VirtualizedContainerService.HintSize="70.4,87.2" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_3">
       <FlowSwitch.Default>
         <FlowStep x:Name="__ReferenceID2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">30,296</av:Point>
-              <av:Size x:Key="ShapeSize">200,66</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">130,362 130,418.25 315,418.25</av:PointCollection>
+              <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">130,364.8 130,418.3 315,418.3</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Low-Volume Loan" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Low-Volume Loan" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -104,7 +105,7 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">315,146.5</av:Point>
-          <av:Size x:Key="ShapeSize">70,87</av:Size>
+          <av:Size x:Key="ShapeSize">70.4,87.2</av:Size>
           <av:PointCollection x:Key="&gt;100KConnector">385,190 570,190 570,296</av:PointCollection>
           <av:PointCollection x:Key="[1K-100K]Connector">350,233.5 350,296</av:PointCollection>
           <av:PointCollection x:Key="Default">315,190 130,190 130,296</av:PointCollection>
@@ -115,11 +116,11 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">470,296</av:Point>
-            <av:Size x:Key="ShapeSize">200,66</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">570,362 570,418.25 385,418.25</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">570,364.8 570,418.3 385.4,418.3</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="High-Volume Loan" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="High-Volume Loan" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -135,17 +136,17 @@
           </Assign>
         </Sequence>
         <FlowStep.Next>
-          <FlowSwitch x:TypeArguments="x:String" x:Name="__ReferenceID1" DisplayName="Term" Expression="[Term]" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_7">
+          <FlowSwitch x:TypeArguments="x:String" x:Name="__ReferenceID1" DisplayName="Term" Expression="[Term]" sap:VirtualizedContainerService.HintSize="70.4,87.2" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_7">
             <FlowSwitch.Default>
               <FlowStep x:Name="__ReferenceID6">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <av:Point x:Key="ShapeLocation">430,506</av:Point>
-                    <av:Size x:Key="ShapeSize">200,66</av:Size>
-                    <av:PointCollection x:Key="ConnectorLocation">530,572 530,660 450,660</av:PointCollection>
+                    <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+                    <av:PointCollection x:Key="ConnectorLocation">530,571.6 530,658.8 450,658.8</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Long-Term" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="Long-Term" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -168,7 +169,7 @@
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <av:Point x:Key="ShapeLocation">315,396.5</av:Point>
-                <av:Size x:Key="ShapeSize">70,87</av:Size>
+                <av:Size x:Key="ShapeSize">70.4,87.2</av:Size>
                 <av:PointCollection x:Key="Default">385,461.75 530,461.75 530,506</av:PointCollection>
                 <av:PointCollection x:Key="&lt;5YConnector">315,461.75 170,461.75 170,506</av:PointCollection>
                 <x:String x:Key="DefaultCaseDisplayName">&gt;5Y</x:String>
@@ -178,11 +179,11 @@
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">70,506</av:Point>
-                  <av:Size x:Key="ShapeSize">200,66</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">170,572 170,660 250,660</av:PointCollection>
+                  <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">170,571.6 170,658.8 250,658.8</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Short-Term" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence DisplayName="Short-Term" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -202,10 +203,10 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">250,626</av:Point>
-                      <av:Size x:Key="ShapeSize">200,66</av:Size>
+                      <av:Size x:Key="ShapeSize">200,68.8</av:Size>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Result" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Result" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -223,11 +224,11 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">250,296</av:Point>
-            <av:Size x:Key="ShapeSize">200,66</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">350,362 350,396.5</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">350,364.8 350,394.8 350.2,394.8 350.2,396.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Mid-Volume Loan" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Mid-Volume Loan" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
