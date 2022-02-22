@@ -22,19 +22,6 @@ steps:
     testTarget: 'TestProject'
     orchestratorConnection: 'TestSuiteDemo'
     folderName: 'Shared'
-- task: UiPathPack@2
-  inputs:
-    versionType: 'AutoVersion'
-    projectJsonPath: '$(Build.SourcesDirectory)'
-    outputType: 'Library'
-    orchestratorConnection: 'TestSuiteDemo'
-    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-- task: UiPathDeploy@2
-  inputs:
-    orchestratorConnection: 'TestSuiteDemo'
-    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'Shared'
-    entryPoints: 'Main.xaml'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
