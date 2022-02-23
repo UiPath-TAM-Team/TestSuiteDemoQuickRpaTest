@@ -27,3 +27,4 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'BuildPipelineArtifact'
     publishLocation: 'Container'
+
