@@ -15,12 +15,12 @@ steps:
     versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
     outputType: 'Process'
-    orchestratorConnection: 'DeleteMeLater'
+    orchestratorConnection: 'TestSuiteDemo'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathTest@2
   inputs:
     testTarget: 'TestProject'
-    orchestratorConnection: 'DeleteMeLater'
+    orchestratorConnection: 'TestSuiteDemo'
     folderName: 'Shared'
 - task: PublishBuildArtifacts@1
   inputs:
